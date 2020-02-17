@@ -1,0 +1,7 @@
+# j the title
+INPUT="$(echo $@)";
+echo $INPUT;
+TITLE="${INPUT// /-}";
+FILE="$(dt)_$TITLE.md";
+DIR="$HOME/log/journal";
+vim "$DIR/$FILE"

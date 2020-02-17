@@ -1,0 +1,5 @@
+INPUT="$(echo $@)";
+TITLE="${INPUT// /-}";
+FILE="$(dt).wg";
+DIR="$HOME/log/journal";
+wordgrinder "$DIR/$FILE"

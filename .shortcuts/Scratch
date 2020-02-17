@@ -1,0 +1,1 @@
+vim $HOME/log/scratch.md +start -c 'autocmd TextChanged,TextChangedI <buffer> silent write'
